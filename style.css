@@ -29,14 +29,6 @@ body {
     opacity: .2;
 }
 
-#copyright{
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    font-size: 12px;
-    margin: 0;
-  }
-
 h1 {
     font-size: 80px;
     margin-bottom: 60px;
@@ -59,3 +51,11 @@ h1 {
     transform: scale(1.1);
     background-color: #5563f4;
 }
+
+#copyright{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+    margin: 0;
+  }
