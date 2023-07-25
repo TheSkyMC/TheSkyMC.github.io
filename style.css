@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #333333;
+    overflow: hidden;
 }
 
 .container {
@@ -26,12 +27,13 @@ body {
     left: 0;
     top: 0;
     z-index: -100;
-    opacity: .2;
+    opacity: .4;
 }
 
 h1 {
     font-size: 80px;
     margin-bottom: 60px;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
 .sm a {
@@ -58,4 +60,14 @@ p {
     right: 5px;
     font-size: 12px;
     margin: 0;
+  }
+
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff;
+    }    
+    to {
+      text-shadow: 0 0 20px #fff;
+    }
   }
