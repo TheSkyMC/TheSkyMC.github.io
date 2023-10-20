@@ -44,14 +44,14 @@ h1 {
     line-height: 50px;
     color: #ffffff;
     font-size: 26px;
-    border-radius: 50%;
+    border-radius: 40%;
     margin: 0 10px;
     transition: .3s linear;
 }
 
 .sm a:hover {
     transform: scale(1.1);
-    background-color: #5563f4;
+    /* background-color: #5563f4; */
 }
 
 p {
